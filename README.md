@@ -1,70 +1,59 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Complaint Box – Anonymous Feedback Platform 
 
-## Available Scripts
+**Complaint Box** is an anonymous feedback platform built using the MERN stack (MongoDB, Express, React, Node.js). It allows users to submit confidential feedback in a transparent, community-driven environment, fostering open communication and trust.
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- **Anonymous Feedback**: Submit feedback without exposing your identity.
+- **Real-time Updates**: Dynamic, real-time feedback using React.
+- **Secure Data Handling**: MongoDB for secure and scalable data storage.
+- **Intuitive UI**: A clean, user-friendly interface for seamless community interaction.
+- **Backend API**: RESTful API built with Node.js and Express for handling feedback and interactions.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend**: ReactJS, JavaScript
+- **Backend**: Node.js, Express
+- **Database**: MongoDB
+- **State Management**: React Hooks, Context API
+- **Version Control**: Git
 
-### `npm test`
+## 🎯 Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
 
-### `npm run build`
+    ```bash
+    git clone https://github.com/IU-Imam/complaint-box.git
+    cd complaint-box
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Install frontend and backend dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ```bash
+    cd client
+    npm install
+    cd ../server
+    npm install
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Set up your environment variables:
 
-### `npm run eject`
+    - Create a `.env` file in the `server` directory and add your MongoDB URI and any necessary environment variables.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Run the application:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    - Start the backend server:
+      ```bash
+      cd server
+      npm start
+      ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    - Start the frontend development server:
+      ```bash
+      cd client
+      npm start
+      ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. Visit `http://localhost:3000` to access the platform.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
